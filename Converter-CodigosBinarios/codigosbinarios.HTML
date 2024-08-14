@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binário/Texto</title>
+    <link rel="stylesheet" href="css/codigosbinarios.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Binário/Texto</h1>
+        <div class="converter">
+            <div>
+                <label for="binaryInput">Código Binário:</label>
+                <textarea id="binaryInput" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="textInput">Texto:</label>
+                <textarea id="textInput" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="convertToText()">Converter para Texto</button>
+            <button onclick="convertToBinary()">Converter para Binário</button>
+        </div>
+    </div>
+    <script src="js/codigosbinarios.js"></script>
+</body>
+</html>
